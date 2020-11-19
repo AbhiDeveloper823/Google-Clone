@@ -1,0 +1,21 @@
+.navbar-toggler{
+	outline: none !important;
+	border: none;
+}
+.fa-bars{
+	font-size: 1.6rem;
+}
+.nav-link{
+	color:black !important;
+	padding-left: 20px;
+}
+.fa-user{
+	padding: auto 20px;
+	font-size: 1.3rem;
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
+

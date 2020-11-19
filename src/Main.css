@@ -1,0 +1,41 @@
+.logo{
+	height: calc(75vh - 56px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+img{
+	width: 20%;
+}
+#search_input{
+	text-align: center;
+	margin-top: 30px;
+	border: none;
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+	width: 38%;
+	height: 44px;
+	border-radius: 20px;
+}
+input:focus{
+	border:none;
+	outline: none;
+}
+
+.google_btn button{
+	margin-right: 20px;
+	margin-top: 30px;
+	border: none;
+	outline: none;
+	background-color: #e3e3e3;
+
+}
+
+@media only screen and (max-width: 600px) {
+	img{
+		width: 50%;
+	}
+	#search_input{
+		width: 80%;
+	}
+}

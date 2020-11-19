@@ -1,0 +1,26 @@
+.result{
+	margin-bottom: 25px;
+}
+.result #site{
+	font-size: 0.9rem;
+}
+.result #head{
+	font-size: 1.4rem;
+}
+img #loader_img{
+	text-align: center;
+	height: 70vh;
+	width: 40vw;
+}
+
+@media only screen and (max-width: 600px) {
+	.result #site{
+		font-size: 0.7rem;
+	}
+	.result #head{
+		font-size: 1.1rem;
+	}
+	.result #para{
+		font-size: 0.9rem;
+	}
+}
