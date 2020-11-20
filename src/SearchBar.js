@@ -7,7 +7,7 @@ const SearchBar = (props) => {
   const getInput=()=>{
   	let input = document.getElementById('searchbar_input').value;
   	props.history.push(`/search/${input}`)
-  	let url = `https://www.googleapis.com/customsearch/v1?key=AIzaSyDQuFpLd3kiK3o1EAyc6v1OLgMKhzU9lH0&cx=efb2621b856944415&q=${input}`;
+  	let url = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${SEARCH_ENGINE_ID}&q=${input}`;
   	fetch(url, {method:'GET'})
   	.then((res)=>res.json())
   	.then((data)=>{
