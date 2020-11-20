@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 import SearchDisplay from './SearchDisplay';
 
-const url = `https://www.googleapis.com/customsearch/v1?key=AIzaSyDQuFpLd3kiK3o1EAyc6v1OLgMKhzU9lH0&cx=efb2621b856944415&q=`;
+const url = `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${SEARCH_ENGINE_ID}&q=`;
 export default class Search extends Component {
 	constructor(){
 		super()
